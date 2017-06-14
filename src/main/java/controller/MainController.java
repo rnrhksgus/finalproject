@@ -15,5 +15,8 @@ public class MainController {
 		return "main";
 	}
 	
+	public String mainPost(){
+		return "";
+	}
 	
 }
