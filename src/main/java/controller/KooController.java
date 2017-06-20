@@ -24,5 +24,7 @@ public class KooController {
 	public String sasdf(){
 		return null;
 	}
-	
+	public void adsf(){
+		
+	}
 }
