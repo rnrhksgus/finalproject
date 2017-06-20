@@ -24,5 +24,7 @@ public class MainController {
 	public void asdf(){
 		
 	}
-	
+	public void adfasdfasdfasdf(){
+		
+	}
 }
