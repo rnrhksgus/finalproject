@@ -21,4 +21,8 @@ public class KooController {
 		this.path = path;
 	}
 	
+	public String sasdf(){
+		return null;
+	}
+	
 }
