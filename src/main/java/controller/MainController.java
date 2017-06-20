@@ -18,5 +18,8 @@ public class MainController {
 	public String mainPost(){
 		return "";
 	}
+	public void adsfadsf(){
+		
+	}
 	
 }
