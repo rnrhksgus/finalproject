@@ -7,20 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class MainController {
-	
-	
-	
+
 	@RequestMapping("/main.do")
-	public String mainGet(){
+	public String mainGet() {
 		return "main";
 	}
-	
-	public String mainPost(){
-		return "";
-	}
 
-	public String fdsa(){
-		return null;
-	}
-	
 }

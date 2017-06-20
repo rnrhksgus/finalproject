@@ -20,9 +20,5 @@ public class LimController {
 	public void setPath(String path) {
 		this.path = path;
 	}
-	
-	public String asd(){
-		return null;
-	}
-	
+
 }

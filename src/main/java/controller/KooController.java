@@ -12,7 +12,7 @@ public class KooController {
 	public KooController() {
 
 	}
-	
+
 	public void setService(KooService service) {
 		this.service = service;
 	}
@@ -20,11 +20,5 @@ public class KooController {
 	public void setPath(String path) {
 		this.path = path;
 	}
-	
-	public String sasdf(){
-		return null;
-	}
-	public void adsf(){
-		String adsf;
-	}
+
 }
