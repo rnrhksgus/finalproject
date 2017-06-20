@@ -21,5 +21,8 @@ public class MainController {
 	public void adsfadsf(){
 		
 	}
+	public void asdf(){
+		
+	}
 	
 }
