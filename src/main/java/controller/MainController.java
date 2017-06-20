@@ -18,13 +18,9 @@ public class MainController {
 	public String mainPost(){
 		return "";
 	}
-	public void adsfadsf(){
-		
+
+	public String fdsa(){
+		return null;
 	}
-	public void asdf(){
-		
-	}
-	public void adfasdfasdfasdf(){
-		
-	}
+	
 }
