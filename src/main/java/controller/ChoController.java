@@ -20,5 +20,5 @@ public class ChoController {
 	public void setPath(String path) {
 		this.path = path;
 	}
-	
-} //end class
+
+}
