@@ -95,6 +95,7 @@
 
 	<!-- controller -->
 	<bean class="controller.MainController"/>
+	<bean class="controller.TilesController"/>
 	<bean class="controller.ChoController">
 		<property name="service" ref="choService"/>
 		<property name="path" ref="path"/>
@@ -130,12 +131,27 @@
 	</bean>
 	<!-- 파일 업로드 끝 -->
 
+	<!-- tiles -->
+	<bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">
+		<property name="definitions">
+			<list>
+				<value>/WEB-INF/tiles.xml</value>
+			</list>
+		</property>
+	</bean>
+	
+	<!-- View 빈 선언 -->
+	<bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+		<property name="viewClass" value="org.springframework.web.servlet.view.tiles2.TilesView"/>
+		<property name="order" value="1"/>
+	</bean>
 
 	<!-- viewResolver -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/travel/" />
 		<property name="suffix" value=".jsp" />
+		<property name="order" value="2"/>
 	</bean>
 
 

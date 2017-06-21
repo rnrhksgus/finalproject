@@ -12,5 +12,10 @@ public class MainController {
 	public String mainGet() {
 		return "main";
 	}
+	
+	@RequestMapping("/detail.do")
+	public String detailProcess() {
+		return "detail";
+	}
 
 }
