@@ -21,5 +21,6 @@ public class TilesController {
 	@RequestMapping("/menu2.do")
 	public String menu2Process() {
 		return "menu2";
+		
 	}// end process()
 }
