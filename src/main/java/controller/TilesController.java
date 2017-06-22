@@ -18,6 +18,7 @@ public class TilesController {
 		return "login";
 	}// end process()
 	
+
 	@RequestMapping("/register.do")
 	public String registerProcess() {
 		return "register";
