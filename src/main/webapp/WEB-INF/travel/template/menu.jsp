@@ -2,8 +2,8 @@
     pageEncoding="UTF-8"%>
 
 <ul>
-	<li><a href="index.do">main</a></li>
-	<li><a href="menu1.do">menu1</a></li>
-	<li><a href="menu2.do">menu2</a></li>
+	<li><a href="login.do">로그인</a></li>
+	<li><a href="register.do">회원가입</a></li>
+	<li><a href="mypage.do">마이페이지</a></li>
 	<li><a href="detail.do">detail</a></li>
 </ul>

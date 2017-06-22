@@ -13,7 +13,7 @@
 
 header {
 	width: 100%;
-	height: 100px;
+	height: 200px;
 	background-color: aqua;
 }
 

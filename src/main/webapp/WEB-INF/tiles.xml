@@ -5,21 +5,28 @@
 
 <tiles-definitions>
 	<definition name="index" template="/WEB-INF/travel/template/layout.jsp">
-		<put-attribute name="title" value="Spring Tiles Example"/>
-		<put-attribute name="header" value="/WEB-INF/travel/template/header.jsp"/>
-		<put-attribute name="menu" value="/WEB-INF/travel/template/menu.jsp"/>
-		<put-attribute name="body" value="/WEB-INF/travel/body.jsp"/>
-		<put-attribute name="footer" value="/WEB-INF/travel/template/footer.jsp"/>
+		<put-attribute name="title" value="Spring Tiles Example" />
+		<put-attribute name="header"
+			value="/WEB-INF/travel/template/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/travel/template/menu.jsp" />
+		<put-attribute name="body" value="/WEB-INF/travel/body.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/travel/template/footer.jsp" />
 	</definition>
-	
-	<definition name="menu1" extends="index">
-		<put-attribute name="title" value="Menu1 Tiles Example"/>
-		<put-attribute name="body" value="/WEB-INF/travel/body-menu1.jsp"/>
+
+	<definition name="login" extends="index">
+		<put-attribute name="title" value="로그인" />
+		<put-attribute name="body" value="/WEB-INF/travel/body-login.jsp" />
 	</definition>
-	
-	<definition name="menu2" extends="index">
-		<put-attribute name="title" value="Menu2 Tiles Example"/>
-		<put-attribute name="body" value="/WEB-INF/travel/body-menu2.jsp"/>
+
+	<definition name="register" extends="index">
+		<put-attribute name="title" value="회원가입" />
+		<put-attribute name="body" value="/WEB-INF/travel/body-register.jsp" />
 	</definition>
-	
+
+	<definition name="mypage" extends="index">
+		<put-attribute name="title" value="마이페이지" />
+		<put-attribute name="body" value="/WEB-INF/travel/body-mypage.jsp" />
+	</definition>
+
 </tiles-definitions>

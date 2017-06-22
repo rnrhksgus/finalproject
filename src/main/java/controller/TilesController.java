@@ -13,13 +13,19 @@ public class TilesController {
 		return "index";
 	}// end process()
 	
-	@RequestMapping("/menu1.do")
-	public String menu1Process() {
-		return "menu1";
+	@RequestMapping("/login.do")
+	public String loginProcess() {
+		return "login";
 	}// end process()
 	
-	@RequestMapping("/menu2.do")
-	public String menu2Process() {
-		return "menu2";
+	@RequestMapping("/register.do")
+	public String registerProcess() {
+		return "register";
 	}// end process()
+	
+	@RequestMapping("/mypage.do")
+	public String mypageProcess() {
+		return "mypage";
+	}// end process()
+	
 }
