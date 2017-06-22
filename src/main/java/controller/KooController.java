@@ -54,7 +54,8 @@ public class KooController {
 			total += input;
 		}
 		return total;
-	}
+		
+	}// end
 	
 
 }// end class
